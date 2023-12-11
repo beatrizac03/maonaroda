@@ -1,0 +1,173 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+header {
+  height: 200px;
+  background: #242424;
+}
+
+header h1 { 
+  padding: 40px 50px 10px 50px;
+  color: #E12929;
+}
+
+header p {
+  padding: 0px 50px;
+  color: white;
+}
+.container{
+  background-color: white;
+  margin-top: 50px;
+}
+.fonte_red{
+  color: #E12929;
+}
+
+.back{
+  background-color: #E2DBCC;
+
+}
+button{
+  background-color: #E12929;
+  padding: 10px ;
+  width: 100px;
+  border-radius: 50px;
+  color: white;
+}
+
+/* HEADER E NAVBAR*/
+
+.offcanvas-body ul li{
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.offcanvas-body ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #E12929;
+  transition: all 0.4s ease;
+}
+
+.offcanvas-body ul li a:hover{
+  color:#242424;
+}
+
+#navbarprincipal{
+  background-color: #242424;
+}
+
+header{
+  background-color: #242424;
+  width: 100vw;
+  height: 60px;
+}
+
+
+.navbarnavbar-expand-lg.bg-body-tertiary{
+  width: 100vw;
+}
+
+.navbar-brand{
+  width: 20px;
+  height: 44px;
+}
+
+.navbar-brand img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.btn-primary{
+  border: none !important;
+  height: 35px;
+}
+
+.offcanvas-title{
+  padding-left: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar{
+  height: 10vh;
+}
+
+.container{
+  padding: 0 !important;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.navbar .container{
+  background-color: #242424;
+}
+
+.navbar-nav{
+  width: 38px;
+  height: 38px;
+}
+
+.nav-item{
+  width: 100%;
+  height: 100%;
+}
+
+.btn-primary{
+  padding: 0 !important;
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-brand{
+  width: 200px;
+  margin: 0;
+  padding: 0;
+  height: 50px;
+}
+
+.offcanvas-header h5, .offcanvas-body a{
+  font-family: 'Prompt';
+}
+
+
+.texto-faleconosco{
+  background-color: #181818;
+  height: 160px;
+  font-family: 'Montserrat';
+}
+
+.texto-faleconosco h1{
+  color: #E12929;
+  font-weight: bold;
+}
+
+.texto-faleconosco p{
+  color: white;
+}
+
+.back {
+  background-color: #E2DBCC !important;
+}
+
+.texto-faleconosco p,.texto-faleconosco h1{
+  position: relative;
+  left: 110px;
+  top: 25px;
+}
+
+.formulario{
+  margin-top: 20px;
+  font-family: 'Montserrat';
+}
+
+.botao-enviar{
+  border-radius: 10px;
+  border: none;
+  box-shadow: 2px 4px 8px 1px rgb(119, 119, 119);
+  transition: transform 0.4s ease-in-out ;
+}
+
+.botao-enviar:hover{
+  transform: scale(1.05);
+}

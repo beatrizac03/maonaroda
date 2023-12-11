@@ -1,0 +1,197 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+body {
+    background-color: rgb(56, 56, 56);
+    margin: 0;
+    text-align: justify;
+    font-family: 'Montserrat';
+}
+
+
+
+.titulo {
+    color: red;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.text {
+    margin-top: 2.5rem;
+    color: white;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+#texto{
+    margin: auto;
+    width: 70%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.card {
+    margin-top: 35px;
+    width: 90%;
+    background-color: rgb(56, 56, 56);
+    border: 0;
+    margin-left: 0;
+    height: 10rem;
+    width: 10rem;
+}
+
+#fotos{
+    display: flex;
+    gap: 10rem;
+    
+}
+
+
+.card h5 {
+    color: white;
+}
+
+.card img {
+    border-radius: 70%;
+    height: 10rem;
+    width: 10rem;
+    
+}
+
+#footer {
+    background-color: black;
+    padding: 1.5rem;
+}
+
+#footer a{
+    text-decoration: none;
+}
+
+#footer img {
+    height: 3rem;
+    width: 3rem;
+    margin: 0 3rem 0 3rem;
+}
+
+#fundadores{
+    height: 40vh;
+    margin: auto;
+    width: 70%;
+}
+
+#links{
+    width: 30%;
+    margin: auto;
+}
+
+.card-body{
+    margin: auto;
+    padding: 0;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+#premios{
+    width: 100vw;
+    height: 20rem;
+    background-color: blue;
+    padding: 2rem;
+}
+
+#textoprincipal{
+    width: 70%;
+    margin: auto;
+    font-size: 5rem;
+    color: red;
+}
+
+.text{
+    font-size: 2rem;
+}
+
+/* HEADER E NAVBAR*/
+
+.offcanvas-body ul li{
+    list-style: none;
+    margin-bottom: 3rem;
+}
+
+.offcanvas-body ul li a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: #E12929;
+    transition: all 0.4s ease;
+}
+
+.offcanvas-body ul li a:hover{
+    color:#242424;
+}
+
+#navbarprincipal{
+    background-color: #242424;
+}
+
+header{
+    background-color: #242424;
+    width: 100vw;
+    height: 6rem;
+}
+
+
+.navbarnavbar-expand-lg.bg-body-tertiary{
+    width: 100vw;
+}
+
+.navbar-brand{
+    width: 20rem;
+    height: 4.4rem;
+}
+
+.navbar-brand img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+
+
+.offcanvas-title{
+    padding-left: 1.5rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.offcanvas-header h5, .offcanvas-body a{
+    font-family: 'Prompt';
+  }
+
+
+  .navbar-nav{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.nav-item{
+    width: 100%;
+    height: 100%;
+}
+
+.btn-primary{
+    border: none !important;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+

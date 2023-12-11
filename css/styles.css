@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Prompt', sans-serif;
+  background: #242424;
+}
+.slider {
+  padding-bottom: 2rem;
+  position: relative;
+}
+.slider .owl-item.active.center .slider-card {
+  transform: scale(1.15);
+  opacity: 1;
+  background: #ff9966; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #272727, #ff5500); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #E12929, #E12929); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+}
+.slider-card {
+  background: #fff;
+  padding: 0px 0px;
+  margin: 50px 15px 90px 15px;
+  border-radius: 5px;
+  box-shadow: 0 15px 45px -20px rgb(0 0 0 / 73%);
+  transform: scale(0.9);
+  opacity: 0.5;
+  transition: all 0.3s;
+  height: 50vh;
+  width: auto;
+}
+
+.owl-nav .owl-prev {
+  position: absolute;
+  top: calc(50% - 25px);
+  left: 0;
+  opacity: 1;
+  font-size: 30px !important;
+  z-index: 1;
+}
+.owl-nav .owl-next {
+  position: absolute;
+  top: calc(50% - 25px);
+  right: 0;
+  opacity: 1;
+  font-size: 30px !important;
+  z-index: 1;
+}
+.owl-dots {
+  text-align: center;
+}
+.owl-dots .owl-dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  background: #ccc !important;
+  margin-left: 3px;
+  margin-right: 3px;
+  outline: none;
+}
+.owl-dots .owl-dot.active {
+  background: #f44336 !important;
+}
+
+
+/* .slider-card-image{
+  height: 50vh;
+  width: auto;
+  display: flex;
+}
+
+.slider-card-image img {
+  width: 100%;
+  height: 50%;
+  object-fit: contain;
+} */
+
+
+/*   FIAT */
+.fiat{
+  position: relative;
+}
+
+.fiat.pulse{
+  top: 2rem;
+}
+
+.fiat.toro{
+  transform: scale(1.2);
+  top: 3.5rem;
+  left: 1rem;
+}
+
+.fiat.argo{
+  top: 2.8rem;
+  transform: scale(0.95);
+}
+
+.fiat.mobi{
+  top: 5.3rem;
+  transform: scale(0.95);
+}
+
+/*  NISSAN */
+.nissan{
+  position: relative;
+}
+
+.nissan.frontier{
+  transform: scale(1.05);
+  top: 7rem;
+}
+
+.nissan.sentra{
+  top: 9.5rem;
+}
+
+.nissan.kicks{
+  top: 8rem;
+}
+
+/*  TOYOTA */
+
+.toyota{
+  position: relative;
+  bottom: -8rem;
+}
+
+.toyota.hilux{
+  transform: scale(1.1);
+  right: 1rem;
+}
+
+
+/*  HONDA */
+
+.honda{
+  position: relative;
+  top: 8rem;
+}
+
+.honda.city{
+  top: 6rem;
+  transform: scale(0.95);
+}
+
+.honda.civictyper{
+  top: 10.5rem;
+}
+
+/*  CHEVROLET */
+.chevrolet{
+  position: relative;
+  top: 8rem;
+}
+
+.chevrolet.cruze{
+  top: 9rem;
+}
+
+
+/*  TEXTO SLIDER COM AS LOGOS*/
+
+.texto-slider{
+  width: auto; 
+  height: 20%; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  margin: auto;
+}
+
+.texto-slider img{
+  width: 100%; 
+  height: 100%; 
+  object-fit: contain; 
+}
+
+.texto-slider span:nth-child(2){
+  font-family: 'Days One'; 
+  position: relative; 
+}
+
+.texto-slider span:nth-child(1){
+  width: 50%;
+  height: 100%;
+}
+
+.texto-slider span:nth-child(2){
+  width: 50%;
+}
+
+/* TEXTO E LOGO SLIDER FIAT*/
+.texto-fiat{
+  position: relative;
+  top: 2rem;
+}
+
+.texto-fiat span:nth-child(1) img{
+  transform: scale(0.85);
+}
+
+.texto-fiat span:nth-child(2){
+  font-size: 4rem;
+  right: 2.5rem;
+}
+
+/*  TEXTO E LOGO SLIDER CHEVROLET*/
+.texto-chev{
+  position: relative;
+  top: 5rem;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+
+.texto-chev span:nth-child(1){
+  width: 40%;
+}
+
+.texto-chev span:nth-child(1) img{
+  transform: scale(0.8);
+}
+
+.texto-chev span:nth-child(2){
+  font-size: 3rem;
+}
+
+.t-chevonix span:nth-child(1){
+  position: relative;
+  left: 2rem;
+}
+
+.t-chevonix span:nth-child(2){
+  position: relative;
+  left: 2rem;
+  font-size: 4rem;
+}
+
+.t-chevcruze span:nth-child(2){
+  font-size: 4rem;
+}
+
+/* TEXTO E LOGO SLIDER NISSAN*/
+.texto-nissan{
+  position: relative;
+  top: 5rem;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+
+.texto-nissan span:nth-child(1){
+  width: 40%;
+}
+
+.texto-nissan span:nth-child(1) img{
+  transform: scale(1);
+}
+
+.texto-nissan span:nth-child(2){
+  font-size: 3rem;
+}
+
+.t-nissanfrontier span:nth-child(1){
+  position: relative;
+  right: 1.5rem;
+}
+
+.t-nissanfrontier span:nth-child(2){
+  position: relative;
+  right: 1.5rem;
+}
+
+/* TEXO E LOGO SLIDER TOYOTA*/
+.texto-toyota{
+  position: relative;
+  top: 5rem;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+
+.texto-toyota span:nth-child(1){
+  width: 40%;
+}
+
+.texto-toyota span:nth-child(1) img{
+
+  transform: scale(1);
+}
+
+.texto-toyota span:nth-child(2){
+  font-size: 3rem;
+}
+
+.t-toyotacorollacross{
+  width: 100%;
+}
+
+.t-toyotacorollacross span:nth-child(1){
+  position: relative;
+    left: 1rem;
+}
+.t-toyotacorollacross span:nth-child(2){
+  font-size: 2rem;
+    right: 0rem;
+    width: 70%;
+}
+
+.t-toyotasw4{
+  position: relative;
+  left: 1rem;
+}
+
+.t-toyotayaris  span:nth-child(2), .t-toyotasw4  span:nth-child(2), .t-toyotahilux span:nth-child(2){
+  font-size: 4rem;
+}
+
+/* TEXTO E LOGO SLIDER HONDA*/
+.texto-honda{
+  position: relative;
+  top: 4.5rem;
+}
+
+.texto-honda span:nth-child(1){
+  width: 40%;
+}
+
+.texto-honda span:nth-child(1) img{
+  transform: scale(0.8);
+}
+
+.texto-honda span:nth-child(2){
+  width: 60%;
+  font-size: 2.5rem;
+}
+
+.t-hondacivictyper span:nth-child(1){
+  position: relative;
+  left: 1rem;
+}
+
+.t-hondacivictyper span:nth-child(2){
+  position: relative;
+  right: 1rem;
+}
+
+.t-hondacity span:nth-child(1){
+  position: relative;
+  left: 3.5rem;
+}
+
+.t-hondacity span:nth-child(2){
+  font-size: 4rem;
+  position: relative;
+  left: 3rem;
+}
+
+.t-hondahrv span:nth-child(1){
+  position: relative;
+  left: 2.5rem;
+}
+
+.t-hondahrv span:nth-child(2){
+  font-size: 4rem;
+  position: relative;
+  left: 2.5rem;
+}
+
+
+body{
+  margin: 0;
+  width: 100vw;
+}
+
+.fa{
+  color: white;
+}
+
+.owl-dots{
+  position: relative;
+  bottom: 2rem;
+}

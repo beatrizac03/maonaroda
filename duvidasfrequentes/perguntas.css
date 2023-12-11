@@ -1,0 +1,271 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.section{
+    width: 60%;
+    max-width: 600px;
+}
+
+section details summary{
+    background-color: #e12929;
+    padding: 2%;
+    border-bottom: 2px solid #282828;
+    color: #fff;
+    font-weight: 600;
+
+}
+section details p{
+    background-color: black;
+    color: #fff;
+    padding: 2%;
+}
+
+#duvidasfrequentesall>h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+/*  FOTO DO MASCOTE E BOTÃO WHATSAPP */
+
+.elementos-whats button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    height: 3rem;
+    color: white;
+    width: 110%;
+    transform: scale(1.1);
+    border: none;
+    border-radius: 1rem;
+    background-color: #242424;
+    box-shadow: 2px 2px 10px 3px rgb(156, 156, 156);
+    transition: transform 0.4s ease-in-out;
+    position: relative;
+    right: 20px;
+}
+
+.elementos-whats button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.mascote-whats{
+    height: 70%;
+    width: 100%;
+    position: relative;
+    left: 4.5rem;
+}
+
+.mascote-whats img{
+    height: 100%;
+    width: 60%;
+    object-fit: contain;
+}
+
+.elementos-whats{
+    width: 20%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.botao-mascote-whats{
+    width: auto;
+    height: auto;
+    position: fixed; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 9999;
+    bottom: 0;
+    right: 0;
+    margin: 0 1rem 1rem 0;
+}
+
+.elementos-whats img{
+    max-width: 35%;
+    height: auto;
+}
+
+.elementos-whats a {
+    text-decoration: none;
+}
+
+#duvidasfrequentesall h1, #duvidasfrequentesall p, .elementos-whats span, .elemento{
+    font-family: 'Montserrat';
+}
+
+
+/* RODAPÉ/FOOTER */
+footer{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.footerdiv{
+    padding: 3rem 0 3rem 0;
+    height: 50vh;
+    width: 100vw;
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.textofooter{
+    height: auto;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.textoiconfoot{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+}
+
+.textoiconfoot i{
+    color: #E12929;
+    font-size: 1.3rem;
+}
+
+.textoiconfoot a{
+    text-decoration: none;
+    
+}
+
+.textoiconfoot p{
+    font-size: 1.2rem;
+    color: rgb(206, 205, 205);
+    margin: 0;
+    font-style: normal;
+}
+
+#financiamento, #aluguel, #consorcio, #seguros, #recall{
+    margin-top: 50px;
+    font-size: 35px
+}
+
+.h1{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E12929;
+    font-size: 12px;
+}
+
+/* HEADER E NAVBAR*/
+
+.offcanvas-body ul li{
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.offcanvas-body ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #E12929;
+    transition: all 0.4s ease;
+}
+
+.offcanvas-body ul li a:hover{
+    color:#242424;
+}
+
+#navbarprincipal{
+    background-color: #242424;
+}
+
+header{
+    background-color: #242424;
+    width: 100vw;
+    height: 60px;
+}
+
+
+.navbarnavbar-expand-lg.bg-body-tertiary{
+    width: 100vw;
+}
+
+.navbar-brand{
+    width: 20px;
+    height: 44px;
+}
+
+.navbar-brand img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.btn-primary{
+    border: none !important;
+    height: 35px;
+}
+
+.offcanvas-title{
+    padding-left: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar{
+    height: 10vh;
+}
+
+.container{
+    padding: 0 !important;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.navbar-nav{
+    width: 38px;
+    height: 38px;
+}
+
+.nav-item{
+    width: 100%;
+    height: 100%;
+}
+
+.btn-primary{
+    padding: 0 !important;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-brand{
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+}
+
+.offcanvas-header h5, .offcanvas-body a{
+    font-family: 'Prompt';
+  }
