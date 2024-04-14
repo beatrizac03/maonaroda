@@ -2,7 +2,7 @@
 A Mão na Roda é uma empresa focada no ramo veicular, possuindo serviços como aluguel, compra, consórcios e financiamentos.
 
 <h2>Desenvolvedores</h2>
-[<li>Beatriz Aguiar</li>](https://github.com/beatrizac03)
+<li><a href="https://github.com/beatrizac03">Beatriz Aguiar</a></li>
 <li><a href="https://github.com/patyfernanda10">Patrícia Fernanda</a></li>
 <li><a href="https://github.com/jardelzx">Jardel Dias</a></li>
 <li><a href="https://github.com/GustavoHJP">Gustavo Peixoto</a></li>
