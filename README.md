@@ -3,7 +3,7 @@ A Mão na Roda é uma empresa focada no ramo veicular, possuindo serviços como 
 
 <h2>Desenvolvedores</h2>
 <li>Beatriz Aguiar</li>
-<li>[@ContaGitHub]https://github.com/patyfernanda10Patrícia Fernanda<li>
+<li><a href="https://github.com/patyfernanda10">Patrícia Fernanda</a></li>
 <li>[@ContaGitHub](https://github.com/jardelzx)Jardel Dias</li>
 <li>[@ContaGitHub]([link para a conta GitHub](https://github.com/GustavoHJP))Gustavo Peixoto</li>
 <li>[@ContaGitHub](https://github.com/MillyGabrielly02)Emilly Gabrielly</li>
